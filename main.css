@@ -19,15 +19,23 @@ body{
     line-height: 1.6;
 
 }
-
+.first-nav-wrapper{
+    display: flex;
+}
+.first-nav-wrapper ul{
+    
+    display: flex;
+    
+}
 header{
+    
     width: 100%;
     height: 7rem;
     background-color: #2B2929;
     border-bottom: 0;
 }
+
 .chique a{
-    
 width: auto;
     text-decoration: none;
     color: white;
@@ -47,38 +55,44 @@ header-2 a:hover{
     text-align: center;
     
 }
-
+.link-list ul{
+    text-align: center;
+    margin-top: 9%;
+}
 li.women-link a{
-    padding: 1.9rem;
+    padding: 3.3rem 2.3rem;
     background-color: gray !important;
 
 }
 li.men-link a{
+    
     padding: 1.6rem 3.5rem;
     background-color: black !important;
 }
-.link-list{
+.link-list ul{
     display: flex;
+
 }
+
 .chique ul{
     display: flex;
 }
 
 .first-nav-wrapper{
+    width: 100%;
+    height: 100%;
     display: flex;
     
 }
-
-ul{
-    width:auto;
-   
-    margin-top: 15px;
+.grey-links ul{
+    display: flex;
+    flex-direction: column;
 }
 
 li{
     
     display: inline-block;
-    padding: 0px 33px;
+    padding: 0px 2px;
 }
 
 li a{
@@ -91,6 +105,16 @@ li a{
     color:rgb(255, 255, 255);
     transition: 0.5s;
 }
+.header-2 ul{
+    display: in;
+}
+ul.grey-links li a{
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    
+
+}
 
 .header-2{
     display: flex;
@@ -99,24 +123,26 @@ li a{
     height:5.5rem;
     background-color: #bababa;
 }
-.access-wrapper a{
+.access-wrapper {
+    position: relative;
     display: flex;
-    justify-content: center;
+    justify-content:center ;
     margin-top: 100px;
 }
 .makeup img{
     height: 49rem;
-    width: 70rem;
+    width: 100%;
 }
 .necklace img{
 
     height: 49rem;
-    width: 60rem;
+    width: 100%;
 }
 .necklace{
 
 }
 .shop-now-group a{
+    white-space: nowrap;
     font-size: larger;
     text-decoration: none;
     color: white;
@@ -126,7 +152,7 @@ li a{
 .shop-now-group{
     position: absolute;
    left: 50%;
-    top: 40%;
+    top: 0%;
     transform: translate(-50%);
 }
 
@@ -139,8 +165,11 @@ li a{
 }
 
 .access-link{
+    position: absolute;
     margin-top: 100px;
-    margin-left: 120px;
+    margin-left: 50%;
+    transform: translate(-50%);
+
 }
 a:hover{
     color: gray;
@@ -150,21 +179,22 @@ a:hover{
 .grid-cols-auto {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 2.5rem;
-    padding: 6rem;
+    gap: 5%;
+    margin-top: 3%;
+    
 }
 .grid-cols-auto2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 2.5rem;
-    padding: 6rem;
+    gap: 15px;
+    margin-top: 6%;
 }
 
 .flex-rows-2 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 8rem;
+    gap: 13%;
 }
 
 .flex-grid-image{
@@ -228,7 +258,7 @@ img{
 
     background-color: #c4c4c4;
     width: 100%;
-    height: 32rem;
+    height: 32%;
     
 }
 .copyright{
@@ -245,13 +275,15 @@ img{
 }
 .bottom-container{
     display: flex;
+    gap: 20%;
     font-size: larger;
 }
 .about-us{
-    padding-left: 20rem;
+  
 }
 .zambia{
-    padding-left: 70rem;
+    width: 20%;
+    height: 20%;
 }
 .bottom-container a{
     color: #2B2929;
