@@ -96,7 +96,6 @@ li a{
     display: flex;
     justify-content: flex-start;
     width: 100%;
-    min-width: 500px;
     height:5.5rem;
     background-color: #bababa;
 }
