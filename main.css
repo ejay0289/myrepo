@@ -42,12 +42,23 @@ width: auto;
     font-size: 3.5rem;
     font-family: satisfy;
 }
+
+.link-list a:hover{
+    background-color: grey;
+    color: black;
+    transition: 1.2s;
+}
+.link-list a{
+    padding: 3rem;
+}
 .header-2 li:hover{
     background-color: grey;
+    transition: 01s;
     
 }
 .header-2 a:hover{
     color: black;
+    transition: 1.5s;
 }
 .item-title{
     text-align: center;
@@ -63,7 +74,7 @@ width: auto;
     margin-top: 9%;
 }
 li.women-link a{
-    padding: 3.3rem 2.3rem;
+    padding: 3rem 2.3rem;
     background-color: gray !important;
 
 }
@@ -76,7 +87,16 @@ li.men-link a{
     display: flex;
 
 }
-
+.header-2 ul{
+    
+    margin-top: -%;
+  
+       
+    
+}
+.header-2 a{
+    padding: 1.4rem ;
+}
 .chique ul{
     display: flex;
 }
@@ -106,7 +126,7 @@ li a{
 }
 
 ul.grey-links li a{
-    
+
     box-sizing: border-box;
     display: inline-block;
     position: relative;
@@ -114,10 +134,7 @@ ul.grey-links li a{
 
 }
 
-ul.grey-links{
-  
-    padding: 7px;
-}
+
 .header-2{
     display: flex;
     justify-content: flex-start;
