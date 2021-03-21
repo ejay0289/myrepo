@@ -162,10 +162,15 @@ ul.grey-links li a{
     white-space: nowrap;
     font-size: larger;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: .5rem 2rem;
-    background-color: black;
+    background-color: rgb(189, 120, 130);
 }
+.shop-now-group a:hover{
+    color: white;
+    transition: 1s;
+}
+
 .shop-now-group{
     position: absolute;
    left: 50%;
@@ -175,10 +180,10 @@ ul.grey-links li a{
 
 .access-text{
     
-    
+    white-space: nowrap;
     color: rgb(253, 99, 122);
     font-weight: bolder;
-    font-size: 5rem;
+    font-size: 6rem;
     text-align: center;
 
 }
