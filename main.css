@@ -42,9 +42,12 @@ width: auto;
     font-size: 3.5rem;
     font-family: satisfy;
 }
-header-2 a:hover{
-    color: red;
-
+.header-2 li:hover{
+    background-color: grey;
+    
+}
+.header-2 a:hover{
+    color: black;
 }
 .item-title{
     text-align: center;
@@ -101,20 +104,20 @@ li a{
     color:rgb(255, 255, 255);
     transition: 0.5s;
 }
-.header-2 ul{
-    display: in;
-}
+
 ul.grey-links li a{
     
     box-sizing: border-box;
     display: inline-block;
     position: relative;
     font-size: 1.7rem;
-    ;
-    
 
 }
 
+ul.grey-links{
+  
+    padding: 7px;
+}
 .header-2{
     display: flex;
     justify-content: flex-start;
