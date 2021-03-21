@@ -84,10 +84,6 @@ li.men-link a{
     display: flex;
     
 }
-.grey-links ul{
-    display: flex;
-    flex-direction: column;
-}
 
 li{
     
@@ -109,9 +105,12 @@ li a{
     display: in;
 }
 ul.grey-links li a{
+    
     box-sizing: border-box;
     display: inline-block;
     position: relative;
+    font-size: 1.7rem;
+    ;
     
 
 }
@@ -138,9 +137,7 @@ ul.grey-links li a{
     height: 49rem;
     width: 100%;
 }
-.necklace{
 
-}
 .shop-now-group a{
     white-space: nowrap;
     font-size: larger;
@@ -215,10 +212,6 @@ a:hover{
 
 }
 
-
-.boots-wrapper img{
-   
-}
 img{
     display: block;
     width: 100%;
