@@ -63,9 +63,12 @@ width: auto;
 .item-title{
     text-align: center;
     padding: 1.5rem;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: larger;
 }
 .item-text{
+    font-size: large;
+    font-weight: normal ;
     text-align: center;
     
 }
@@ -204,7 +207,7 @@ a:hover{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 5%;
-    margin-top: 3%;
+    margin-top: 5%;
     
     
 }
@@ -213,6 +216,7 @@ a:hover{
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 15px;
     margin-top: 6%;
+    margin-bottom: 6%;
 }
 
 .flex-rows-2 {
