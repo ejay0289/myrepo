@@ -1,0 +1,262 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    
+
+
+}
+body{
+    font-size: 1.5rem;
+    font-family: shippori mincho;
+    line-height: 1.6;
+
+}
+
+header{
+    width: 100%;
+    height: 7rem;
+    background-color: #2B2929;
+    border-bottom: 0;
+}
+.chique a{
+    
+width: auto;
+    text-decoration: none;
+    color: white;
+    font-size: 3.5rem;
+    font-family: satisfy;
+}
+header-2 a:hover{
+    color: red;
+
+}
+.item-title{
+    text-align: center;
+    padding: 1.5rem;
+    font-weight: bold;
+}
+.item-text{
+    text-align: center;
+    
+}
+
+li.women-link a{
+    padding: 1.9rem;
+    background-color: gray !important;
+
+}
+li.men-link a{
+    padding: 1.6rem 3.5rem;
+    background-color: black !important;
+}
+.link-list{
+    display: flex;
+}
+.chique ul{
+    display: flex;
+}
+
+.first-nav-wrapper{
+    display: flex;
+    
+}
+
+ul{
+    width:auto;
+   
+    margin-top: 15px;
+}
+
+li{
+    
+    display: inline-block;
+    padding: 0px 33px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+}
+ a:hover{
+    color:rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.header-2{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    min-width: 500px;
+    height:5.5rem;
+    background-color: #bababa;
+}
+.access-wrapper a{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.makeup img{
+    height: 49rem;
+    width: 70rem;
+}
+.necklace img{
+
+    height: 49rem;
+    width: 60rem;
+}
+.necklace{
+
+}
+.shop-now-group a{
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+    padding: .5rem 2rem;
+    background-color: black;
+}
+.shop-now-group{
+    position: absolute;
+   left: 50%;
+    top: 40%;
+    transform: translate(-50%);
+}
+
+.access-text{
+    color: white;
+    background-color: black;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.access-link{
+    margin-top: 100px;
+    margin-left: 120px;
+}
+a:hover{
+    color: gray;
+    transition: .5s;
+}
+
+.grid-cols-auto {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2.5rem;
+    padding: 6rem;
+}
+.grid-cols-auto2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2.5rem;
+    padding: 6rem;
+}
+
+.flex-rows-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.flex-grid-image{
+
+    width: 60%;
+    height: 60%;
+
+}
+.grid-bottom{
+    justify-items: center;
+
+}
+
+
+.grid-bottom > * {
+
+    width: 100%;
+
+}
+
+
+.boots-wrapper img{
+   
+}
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section a{
+    text-decoration: none;
+    color: black;
+}
+ section a:hover{
+     color: rgb(160, 158, 158);
+ }
+
+ .contacts{
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+     height: 5.5rem;
+     background-color: #534545;
+     margin-top: 7.6rem;
+     margin-bottom: 0;
+ }
+.facebook-logo{
+    height: 5rem;
+    width: 5rem;
+}
+.insta-logo{
+    height: 5rem;
+    width: 5rem;
+}
+.whatsapp-logo{
+    height: 5rem;
+    width: 5rem;
+}
+.help-about{
+
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 32rem;
+    
+}
+.copyright{
+    background-color: black;
+    width: 100%;
+    height: 5rem;
+    color: white;
+    padding-top: 1.5rem;
+}
+
+.bottom-container li{
+    display: block;
+    margin: 1.5rem;
+}
+.bottom-container{
+    display: flex;
+    font-size: larger;
+}
+.about-us{
+    padding-left: 20rem;
+}
+.zambia{
+    padding-left: 70rem;
+}
+.bottom-container a{
+    color: #2B2929;
+}
+.bottom-container a:hover{
+    color: white;
+}
