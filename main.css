@@ -219,7 +219,7 @@ a:hover{
 
 .grid-cols-auto2 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     gap: 10rem;
     margin-top: 8%;
     margin-bottom: 10%;
@@ -307,6 +307,7 @@ img{
 .bottom-container{
     display: flex;
     gap: 0%;
+    justify-content: space-between;
     font-size: larger;
 }
 .about-us{
@@ -343,15 +344,20 @@ img{
 .grid-cols-auto img:hover{
     transform: scale(1.1);
     transition: 1s;
+    padding-bottom: 2rem;
    
 }
 .grid-cols-auto2 img:hover{
     transform: scale(1.1);
     transition: 1s;
-   
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+
 }
 
- 
+.flex-rows-2 img:hover{
+    margin-top: 1rem;
+}
 .grid-cols-auto>img{
     border-radius: 30px;
 
